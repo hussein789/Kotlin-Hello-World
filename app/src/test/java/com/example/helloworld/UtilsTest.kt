@@ -8,6 +8,6 @@ class UtilsTest {
     @Test
     fun computeVersionName_returnFirstVersion() {
         val result = computeVersionName()
-        assertEquals(result, "2.0.0")
+        assertEquals(result, "1.0.0")
     }
 }
